@@ -1,0 +1,18 @@
+{
+	"defaults": {
+		"controller": "Nanozen\\Controllers\\HomeController",
+        "controller_area": "HomeController",
+		"action": "index"
+	},
+    "namespaces": {
+        "controllers": "Nanozen\\Controllers\\",
+        "areas": "Nanozen\\Areas\\",
+        "models": "Nanozen\\Models\\",
+        "providers": "Nanozen\\Providers\\",
+        "views": "Nanozen\\Views\\"
+    },
+    "paths": {
+    	"routes_file": "../routes.php",
+        "views": "../Views/"
+    }
+}
